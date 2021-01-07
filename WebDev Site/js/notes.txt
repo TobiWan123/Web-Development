@@ -1,0 +1,40 @@
+/*
+
+    - Auto-function
+    
+
+    - Object Literal 
+
+        (function() {
+
+            var obj = {
+
+                atrr: value ,
+                attr2: value ,
+                init: function() ,
+                function: functon() 
+            }
+
+            obj.init();
+
+        })();
+
+
+    -Revealing Module Pattern
+
+        var obj = (function() {
+
+            atrr
+            atrr2
+
+            function1
+
+            function2
+
+            return{
+                function: function(),
+                atr: atrr
+            };
+        })();
+
+*/

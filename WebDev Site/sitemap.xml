@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://developerpagetw.netlify.app/</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/index.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/projects.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/projects-basic.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/projects-advanced.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/about.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/contact.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/impressum.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/faq.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://developerpagetw.netlify.app/datenschutz.html</loc>
+  <lastmod>2020-08-30T14:20:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
