@@ -1,0 +1,151 @@
+.services
+    min-height: 1000px !important
+    margin-top: 150px
+
+.descr-serv
+    display: block
+    min-height: 350px
+    width: 50%
+
+.descr-service
+    position: relative
+    height: 35%
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    transition: transform .33s ease
+
+    @media only screen and (max-width: $media-point2)
+        transform: translateY(-17.5%)
+
+    .descr-one
+        @extend .descr-serv
+
+    .descr-two
+        @extend .descr-serv
+
+        h2
+            color: $font-acc
+            font-size: 2rem
+
+.descr-service
+    h2, h3, p
+        text-align: left
+        width: 75%
+        margin: 0 auto
+        font-weight: normal
+
+.services-frame
+    position: relative
+    height: 60%
+    width: 100%
+    background-color: $prime
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 30% 70%
+
+    .trapez
+        height: 100%
+        width: 100%
+        position: absolute
+        background-color: $second
+        z-index: 1
+        clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%)
+
+    .service-top
+        display: flex
+        justify-content: center
+        align-items: center
+        grid-column: 1/4
+        z-index: 10
+
+        .service-top-descr
+            width: 75%
+            margin-top: 2.5%
+            h2, p
+                text-align: center
+                color: $font-second
+                font-weight: normal
+                letter-spacing: 1px
+                line-height: 100%
+            p
+                font-weight: lighter
+                line-height: 150%
+
+    .service
+        transition: all .33s ease
+        z-index: 10
+        margin-bottom: 75px
+        margin-top: 25px
+
+        .circle
+            height: 100px
+            width: 90px
+            border: solid $base 2px
+            border-radius: 100%
+            margin: 0 auto
+            margin-top: 50px
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            transition: all .25s ease
+
+            &:hover
+                transform: scale(1.2) translateY(-10px)
+
+            @media only screen and (max-width: $media-point1)
+                margin-top: 20px
+
+            @media only screen and (max-width: $media-point2)
+                transform: scale(0.9)
+
+                &:hover
+                    transform: scale(1.1) translateY(-10px)
+
+            img
+                width: 40%
+
+        p
+            width: 50%
+            min-width: 100px
+            margin: 0 auto
+            margin-top: 30px
+            color: $font-second
+            font-weight: lighter
+            line-height: 180%
+            letter-spacing: 1px
+            text-align: center
+
+            @media only screen and (max-width: $media-point1)
+               line-height: 150%
+               margin-top: 10px
+            
+            @media only screen and (max-width: $media-point1)
+                margin-top: 30px
+               
+    .s-two
+        .circle
+            border-color: $accent
+
+    @media only screen and (max-width: $media-point3 + 200px)
+        grid-template-columns: 1fr
+        grid-template-rows: 200px 300px 300px 300px
+        
+        .service
+            margin-bottom: 100px
+
+        .service-top
+            grid-row: 1
+            margin-bottom: 50px
+            margin-top: 25px
+
+        .s-one
+            grid-row: 2
+
+        .s-two
+            grid-row: 3
+
+        .s-three
+            grid-row: 4
+                

@@ -1,0 +1,94 @@
+.team
+    margin-top: 250px
+
+    .team-header
+        width: 400px
+        text-align: center
+        margin: 0 auto
+        font-weight: normal
+        font-size: 2.2rem
+        letter-spacing: 5px
+
+        @media only screen and (max-width: $media-point1)
+            transform: translateY(-50px)
+
+        span
+            color: $font-acc
+
+.team-frame
+    width: 90%
+    min-height: 650px
+    margin: 0 auto
+    display: flex
+    flex-wrap: wrap
+
+    .person
+        position: relative
+        height: 650px
+        width: 33.3%
+        min-width: 350px
+        margin: 0 auto
+
+        .team-img
+            height: 50%
+            width: 50%
+            margin: 0 auto
+            margin-top: 15%
+            border: solid white 15px
+    
+        .timg-one
+            background: url(../pics/pexels-konstantin-mishchenko-2010812.jpg)
+            background-position: center
+            background-size: 240px
+
+        .timg-two
+            background: url(../pics/pexels-mihai-stefan-photography-939817.jpg)
+            background-position: center
+            background-size: 240px
+
+        .timg-three
+            background: url(../pics/pexels-spencer-selover-775358.jpg)
+            background-position: center
+            background-size: 240px
+
+        .frame-acc
+            height: 50%
+            width: 50%
+            position: absolute
+            z-index: -1
+            border: solid 4px $accent
+            top: 7.5%
+            left: 17%
+
+            @media only screen and (max-width: $media-point1)
+                top: 6%
+
+        .team-descr
+            h2
+                width: 50%
+                margin: 0 auto
+                margin-top: 5%
+                text-align: right
+                font-size: 1.5rem
+                font-weight: normal
+                letter-spacing: 1px
+
+                span
+                    color: $font-acc
+
+            p
+                width: 60%
+                text-align: left
+                margin: 0 auto
+                font-size: 1.2rem
+                line-height: 150%
+
+    .p-three
+
+        @media only screen and (max-width: $media-point1 + 150px)
+            transform: translateY(100px)
+            margin-bottom: 100px
+        
+        @media only screen and (max-width: $media-point2)
+            transform: none
+            margin-bottom: 50px
